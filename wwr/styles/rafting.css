@@ -5,6 +5,51 @@
     --accent2-color: #AFFEF8;
 }
 
+header {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    font-family: "Carter One", system-ui;
+    max-width: 968px;
+}
+
+header img {
+    justify-self: center;
+    width: 110px;
+    height: auto;
+}
+
+nav {
+	text-align: center;
+}
+
+.navigation {
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+	list-style: none;
+}
+
+.navigation li {
+	flex: 1 1 100%;
+}
+
+.navigation a {
+	display: block;
+	color: var(--accent1-color);
+	text-decoration: none;
+    font-size: larger;
+}
+
+.navigation a:hover {
+	color: var(--accent2-color);
+	font-weight: 700;
+	text-decoration: underline;
+}
+
 main {
     max-width: 1000px;
 }
@@ -60,6 +105,74 @@ p {
     font-style: normal;
 }
 
+.container3 {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    background-color: var(--accent1-color);
+    margin-top: 10px;
+}
+
+.columns-3 {
+    grid-column: 1/4;
+    text-align: center;
+}
+
+.history-image {
+    width: auto;
+    height: 30px;
+    transform: rotate(90deg);
+}
+
+.three {
+    margin: 0.25rem;
+}
+
+.adventure-container {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: var(--accent1-color);
+    margin-top: 10px;
+}
+
+.columns-5 {
+    grid-column: 1/6;
+    text-align: center;
+}
+
+.five {
+    justify-self: center;
+    margin: 0.25rem;
+}
+
+.five img {
+    width: 125px;
+    height: auto;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.footer-container { /* Got help from some Bing searches */
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center-footer-text {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-items { 
+	display: flex;
+	list-style: none;
+}
+
 footer a {
     text-decoration: none;
 }
@@ -67,4 +180,5 @@ footer a {
 footer img {
     max-width: 28px;
     height: auto;
+    padding-left: 15px;
 }
