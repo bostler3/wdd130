@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Whitewater Rafting Company | Contact</title>
+        <meta name="description" content="Blake Ostler | WDD 130 | Week 5 WWR Contact Page Assignment">
+        <meta name="author" content="Blake Ostler">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Carter+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/rafting.css">
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.png" alt="The Whitewater Rafting Company logo">
+            <nav>
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="contact-grid-container">
+                <div class="box-1">
+                    <h2>Contact Us</h2>
+                </div>
+                <div class="box-2">
+                    <p class="box-2-name">The Whitewater Rafting Company</p>
+                    <p>210 West 4th South<br>
+                       Rexburg, ID  83460<br>
+                       Phone:  208.496.1411<br>
+                       E-mail:  contact@twwrc.com<br><br>
+                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5757.989888851121!2d-111.78582992321056!3d43.81446427109503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540b03dc48a5cf%3A0x1e5534d3c38ef412!2sBrigham%20Young%20University-Idaho!5e0!3m2!1sen!2sus!4v1733262796847!5m2!1sen!2sus" width="350" height="250" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </p>
+                </div>
+                <div class="box-3">
+                    <div class="employees-container">
+                        <figure class="three-employee-images">
+                            <img src="images/employee-image1.jpg" alt="General Manager Picture">
+                            <figcaption>General Manager</figcaption>
+                        </figure>
+                       <figure class="three-employee-images">
+                            <img src="images/employee-image2.jpg" alt="Tour Director Picture">
+                            <figcaption>Tour Director</figcaption>
+                       </figure>
+                       <figure class="three-employee-images">
+                            <img src="images/employee-image3.jpg" alt="Safety Director Picture">
+                            <figcaption>Safety Director</figcaption>
+                       </figure>
+                    </div>
+                </div>
+                <div class="box-4">
+                    <form>
+                        <fieldset>
+                            <legend>Your Contact Information</legend>
+                            <div>
+                                <label for="fullname">Full Name:</label>
+                                <input type="text" id="fullname" name="fullname">
+                            </div>
+                            <div>
+                                <label for="useremail">E-mail Address:</label>
+                                <input type="email" id="useremail" name="useremail">
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Message Purpose</legend>
+                            <div>
+                                <input type="radio" id="general" name="purpose" value="general">
+                                <label for="general">General Inquiry</label>
+                                <input type="radio" id="reservation" name="purpose" value="reservation">
+                                <label for="reservation">Reservation Question</label>
+                                <br>
+                                <br>
+                                <input type="radio" id="website" name="purpose" value="website">
+                                <label for="website">Website Suggestion</label>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Message</legend>
+                            <textarea id="feedback" name="feedback" placeholder="Type message here..." rows="10"></textarea>
+                        </fieldset>
+                        <fieldset class="newsletter">
+                            <div>
+                                <input type="checkbox" id="newsletter" name="newsletter" value="newsletter">
+                                <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                            </div>
+                        </fieldset>
+                        <button type="submit">Submit Message</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-container">
+                <div class="wireframe-link">
+                    <a href="https://app.moqups.com/pGGwNGEka3g4NBqkuZXNz6aIobriq8Ht/view/page/ad64222d5">Wireframe Link</a>
+                </div>
+                <p class="center-footer-text">&copy; 2024 | The Whitewater Rafting Company | Blake Ostler</p>
+                <ul class="footer-items">
+                    <li>
+                        <a href="https://facebook.com">
+                            <img src="images/facebook-icon.webp" alt="Facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com">
+                            <img src="images/instagram-logo.webp" alt="Instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://x.com">
+                            <img src="images/x-logo.webp" alt="X">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
